@@ -37,8 +37,8 @@ Masjid Hub membantu masjid menjadi lebih:
 
 ```txt
 Status       : Draft / Early Planning
-Version      : v0.1 roadmap
-License      : AGPL-3.0-or-later recommended for app
+Version      : v0.1
+License      : MIT
 Parent       : Ummah Civic Super App
 Target       : Indonesia-first, global-ready
 Deployment   : Self-hosted first
