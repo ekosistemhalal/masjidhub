@@ -1,236 +1,240 @@
 # 🕌 Masjid Hub
 
-> **Open-source mosque operations management system for masjid, mushalla, and Islamic community centers.**
+> **Sistem manajemen operasional masjid sumber terbuka (open-source) untuk masjid, mushalla, dan pusat komunitas Islam.**
 
-**Masjid Hub** adalah modul dalam ekosistem **Ummah Civic Super App** untuk membantu pengurus masjid mengelola profil masjid, struktur DKM, jadwal ibadah, kajian, pengumuman, inventaris, dokumen, halaman publik, dan laporan operasional secara rapi, amanah, transparan, dan mudah diwariskan.
+**Masjid Hub** adalah modul dalam ekosistem **Ummah Civic Super App** yang membantu pengurus masjid mengelola profil masjid, struktur DKM, jadwal ibadah, kajian, pengumuman, inventaris, dokumen, halaman publik, dan laporan operasional secara rapi, amanah, transparan, serta mudah diwariskan.
 
 > Masjid bukan hanya tempat shalat.
+>
 > Masjid adalah pusat ibadah, pendidikan, sosial, dakwah, dan peradaban.
-> **Masjid Hub membantu fungsi besar itu ditopang oleh sistem yang rapi.**
+>
+> **Masjid Hub membantu fungsi besar tersebut ditopang oleh sistem yang tertata dengan baik.**
 
 ---
 
-## 🌙 Why Masjid Hub?
+## 🌙 Mengapa Masjid Hub?
 
 Banyak masjid dan mushalla masih mengandalkan:
 
 * 💬 Grup WhatsApp
-* 📊 Excel pribadi
+* 📊 File Excel pribadi
 * 📒 Buku kas manual
-* 📁 Dokumen tercecer
-* 🕰️ Jadwal yang diingat satu orang
-* 📦 Inventaris tanpa catatan
-* 🧾 Laporan yang tidak standar
+* 📁 Dokumen yang tercecer
+* 🕰️ Jadwal yang hanya diingat oleh satu orang
+* 📦 Inventaris tanpa pencatatan
+* 🧾 Laporan yang tidak memiliki standar
 
-Masalahnya bukan selalu niat buruk.
+Masalahnya tidak selalu karena niat yang buruk.
+
 Sering kali masalahnya adalah:
 
-> **Amanah belum ditopang oleh sistem.**
+> **Amanah belum didukung oleh sistem yang baik.**
 
 Masjid Hub membantu masjid menjadi lebih:
 
-* ✅ Organized
-* ✅ Transparent
-* ✅ Accountable
-* ✅ Easy to manage
-* ✅ Easy to hand over to future committees
-* ✅ Self-hosted and vendor-independent
+* ✅ Terorganisasi
+* ✅ Transparan
+* ✅ Akuntabel
+* ✅ Mudah dikelola
+* ✅ Mudah diserahterimakan kepada pengurus berikutnya
+* ✅ Dapat di-host sendiri tanpa ketergantungan vendor
 
 ---
 
-## 🚧 Project Status
+## 🚧 Status Proyek
 
 ```txt
-Status       : Draft / Early Planning
-Version      : v0.1
-License      : MIT
-Parent       : Ummah Civic Super App
-Target       : Indonesia-first, global-ready
-Deployment   : Self-hosted first
+Status       : Draft / Perencanaan Awal
+Versi        : v0.1
+Lisensi      : MIT
+Induk Proyek : Ummah Civic Super App
+Target       : Indonesia terlebih dahulu, siap untuk global
+Deployment   : Prioritas self-hosted
 ```
 
 ---
 
-## ✨ Core Features
+## ✨ Fitur Utama
 
-### 🧩 MVP Features
+### 🧩 Fitur MVP
 
-* 🕌 Mosque/mushalla profile
-* 👥 DKM/takmir structure
-* 🕋 Worship schedule
-* 🕌 Friday prayer schedule
-* 🎙️ Imam, khatib, muadzin, bilal assignments
-* 📚 Kajian/event management
-* 📢 Announcements
-* 🌐 Public mosque page
-* 📦 Basic inventory
-* 📁 Basic document archive
-* 🧾 Monthly operational report
-* 📤 CSV/JSON export
-* 🔐 Audit log
-* 🐳 Docker Compose deployment
+* 🕌 Profil masjid/mushalla
+* 👥 Struktur DKM/takmir
+* 🕋 Jadwal ibadah
+* 🕌 Jadwal shalat Jumat
+* 🎙️ Penugasan imam, khatib, muadzin, dan bilal
+* 📚 Manajemen kajian dan kegiatan
+* 📢 Pengumuman
+* 🌐 Halaman publik masjid
+* 📦 Inventaris dasar
+* 📁 Arsip dokumen dasar
+* 🧾 Laporan operasional bulanan
+* 📤 Ekspor CSV/JSON
+* 🔐 Log audit
+* 🐳 Deployment Docker Compose
 
-### 🔮 Future Features
+### 🔮 Fitur Masa Depan
 
-* 👨‍👩‍👧‍👦 Jamaah registry
-* 🛠️ Facility maintenance tickets
-* 🧍 Event attendance
-* 🖥️ Display board mode
-* 📱 PWA/offline-friendly mode
-* 💰 Integration with Amanah Ledger
-* 📖 Integration with TPA/Tahfidz Hub
-* 🤝 Integration with Relawan Hub
-* 🧾 Integration with Mustahik Registry
-* 🚀 Integration with Ummah Mission Hub
-* 🌍 Multi-language support
-* 🔌 Public API
+* 👨‍👩‍👧‍👦 Registrasi jamaah
+* 🛠️ Tiket pemeliharaan fasilitas
+* 🧍 Kehadiran peserta kegiatan
+* 🖥️ Mode papan informasi digital
+* 📱 Dukungan PWA dan mode offline
+* 💰 Integrasi dengan Amanah Ledger
+* 📖 Integrasi dengan TPA/Tahfidz Hub
+* 🤝 Integrasi dengan Relawan Hub
+* 🧾 Integrasi dengan Mustahik Registry
+* 🚀 Integrasi dengan Ummah Mission Hub
+* 🌍 Dukungan multi-bahasa
+* 🔌 API publik
 
 ---
 
-
-## 🏗️ Architecture
+## 🏗️ Arsitektur
 
 ```txt
-Browser / PWA Client
+Browser / Klien PWA
         |
         v
-Web App / UI Layer
+Aplikasi Web / Lapisan Antarmuka
         |
         v
-API Layer
+Lapisan API
         |
         v
-Masjid Hub Domain Services
+Layanan Domain Masjid Hub
         |
         v
-Ummah Core Services
-(Auth, Tenant, RBAC, People, Files, Audit Logs)
+Layanan Inti Ummah
+(Auth, Tenant, RBAC, Data Anggota, Berkas, Audit Log)
         |
         v
-PostgreSQL + S3-Compatible Storage
+PostgreSQL + Penyimpanan Kompatibel S3
 ```
 
-### 🧱 Architecture Principles
+### 🧱 Prinsip Arsitektur
 
-* 🔐 Secure by default
-* 🏢 Multi-tenant ready
-* 📜 Audit-friendly
-* 🧩 Modular domain design
-* 🐳 Self-hosted first
-* 🌍 Global-ready, Indonesia-first
-* 🔌 Integration-oriented
-
----
-
-## 🔗 Integrations
-
-Masjid Hub is designed to integrate with other **Ummah Civic Stack** modules:
-
-| Module               | Integration                                          |
-| -------------------- | ---------------------------------------------------- |
-| `ummah-core`         | Auth, organization, RBAC, people, audit logs         |
-| `amanah-ledger`      | Funds, transactions, financial reports, transparency |
-| `tpa-tahfidz-hub`    | TPA programs under mosque                            |
-| `dakwah-content-hub` | Kajian materials, khutbah archive, speakers          |
-| `ummah-mission-hub`  | Social/dakwah field missions                         |
-| `mustahik-registry`  | Beneficiary data for social programs                 |
-| `relawan-hub`        | Volunteer assignments                                |
-| `org-hub`            | Governance, meetings, decisions                      |
-| `ziswaf-kit`         | Zakat, infaq, sedekah, and wakaf workflows           |
+* 🔐 Aman secara bawaan
+* 🏢 Siap multi-tenant
+* 📜 Ramah audit
+* 🧩 Desain domain modular
+* 🐳 Prioritas self-hosted
+* 🌍 Siap digunakan secara global, dimulai dari Indonesia
+* 🔌 Berorientasi integrasi
 
 ---
 
-## 🗺️ Roadmap Summary
+## 🔗 Integrasi
 
-| Year | Focus                         |
-| ---: | ----------------------------- |
-|    1 | MVP and pilot                 |
-|    2 | Stabilization and trust layer |
-|    3 | Operational maturity          |
-|    4 | Cross-domain integration      |
-|    5 | Network and standardization   |
-|    6 | Mobile/PWA resilience         |
-|    7 | Advanced governance           |
-|    8 | Regional/global adaptation    |
-|    9 | Intelligence without fatwa    |
-|   10 | Civic infrastructure maturity |
+Masjid Hub dirancang untuk terintegrasi dengan modul lain dalam **Ummah Civic Stack**:
+
+| Modul                | Integrasi                                              |
+| -------------------- | ------------------------------------------------------ |
+| `ummah-core`         | Autentikasi, organisasi, RBAC, data anggota, audit log |
+| `amanah-ledger`      | Dana, transaksi, laporan keuangan, transparansi        |
+| `tpa-tahfidz-hub`    | Program TPA dan tahfidz di bawah masjid                |
+| `dakwah-content-hub` | Materi kajian, arsip khutbah, data pemateri            |
+| `ummah-mission-hub`  | Program sosial dan misi dakwah lapangan                |
+| `mustahik-registry`  | Data penerima manfaat program sosial                   |
+| `relawan-hub`        | Penugasan relawan                                      |
+| `org-hub`            | Tata kelola, rapat, dan keputusan organisasi           |
+| `ziswaf-kit`         | Alur kerja zakat, infak, sedekah, dan wakaf            |
 
 ---
 
-## 🤝 Contributing
+## 🗺️ Ringkasan Roadmap
 
-Contributions are welcome.
+| Tahun | Fokus                                           |
+| ----: | ----------------------------------------------- |
+|     1 | MVP dan proyek percontohan                      |
+|     2 | Stabilisasi dan pembangunan lapisan kepercayaan |
+|     3 | Kematangan operasional                          |
+|     4 | Integrasi lintas domain                         |
+|     5 | Jaringan dan standarisasi                       |
+|     6 | Ketahanan mobile/PWA                            |
+|     7 | Tata kelola tingkat lanjut                      |
+|     8 | Adaptasi regional dan global                    |
+|     9 | Kecerdasan operasional tanpa fungsi fatwa       |
+|    10 | Kematangan infrastruktur sipil                  |
 
-Good first contribution areas:
+---
 
-* 📚 Documentation
-* 🇮🇩 Indonesian UI copy
-* 🧹 Issue triage
-* ♿ Accessibility review
-* ✅ Form validation
-* 🌱 Seed data
-* 🧪 Test cases
-* 🐳 Docker setup
-* 🎨 UI components
+## 🤝 Kontribusi
+
+Kontribusi sangat terbuka.
+
+Area kontribusi yang cocok untuk pemula:
+
+* 📚 Dokumentasi
+* 🇮🇩 Teks antarmuka Bahasa Indonesia
+* 🧹 Triase dan pengelolaan issue
+* ♿ Tinjauan aksesibilitas
+* ✅ Validasi formulir
+* 🌱 Data contoh (seed data)
+* 🧪 Pengujian
+* 🐳 Konfigurasi Docker
+* 🎨 Komponen UI
 * 🔌 API
-* 🗄️ Database
-* 🌐 Public page templates
+* 🗄️ Basis data
+* 🌐 Template halaman publik
 
 ---
 
-## 🔐 Security
+## 🔐 Keamanan
 
-If you find a security issue, please report it responsibly.
+Jika Anda menemukan celah keamanan, mohon laporkan secara bertanggung jawab.
 
-High-priority security areas:
+Area keamanan dengan prioritas tinggi:
 
-* 🏢 Organization data isolation
-* 👁️ Public/private visibility
-* 📁 File access control
-* 👤 Role permissions
-* 📜 Audit logs
-* 📤 Export permissions
-
----
-
-## 🧭 Philosophy
-
-Masjid Hub is built on one simple belief:
-
-> **Amanah is not only a moral virtue.**
-> Amanah also needs good systems, clear records, transparent workflows, and responsible governance.
-
-A masjid with good intentions but poor records will eventually exhaust its best people.
-
-A masjid with good intentions and good systems can serve the ummah across generations.
+* 🏢 Isolasi data organisasi
+* 👁️ Pengaturan visibilitas publik dan privat
+* 📁 Kontrol akses berkas
+* 👤 Hak akses dan peran pengguna
+* 📜 Audit log
+* 📤 Hak ekspor data
 
 ---
 
-## 🌍 Project Vision
+## 🧭 Filosofi
 
-Masjid Hub aims to become a trustworthy open-source foundation for mosque operations worldwide, starting from Indonesia.
+Masjid Hub dibangun berdasarkan satu keyakinan sederhana:
 
-The long-term goal is not merely software adoption.
+> **Amanah bukan hanya nilai moral.**
+>
+> Amanah juga membutuhkan sistem yang baik, pencatatan yang jelas, alur kerja yang transparan, dan tata kelola yang bertanggung jawab.
 
-The long-term goal is stronger Muslim institutions:
+Masjid dengan niat baik tetapi pencatatan yang buruk pada akhirnya akan menguras energi orang-orang terbaiknya.
 
-* 🕌 More organized
-* 🧾 More accountable
-* 🔍 More transparent
-* 🌱 More sustainable
-* 🤝 More beneficial for the ummah
+Masjid dengan niat baik dan sistem yang baik dapat melayani umat lintas generasi.
 
 ---
 
-## 📜 License
+## 🌍 Visi Proyek
 
-This project is released under the **MIT License**.
+Masjid Hub bertujuan menjadi fondasi open-source yang terpercaya untuk operasional masjid di seluruh dunia, dimulai dari Indonesia.
+
+Tujuan jangka panjangnya bukan sekadar adopsi perangkat lunak.
+
+Tujuan jangka panjangnya adalah membangun institusi Muslim yang:
+
+* 🕌 Lebih terorganisasi
+* 🧾 Lebih akuntabel
+* 🔍 Lebih transparan
+* 🌱 Lebih berkelanjutan
+* 🤝 Lebih bermanfaat bagi umat
 
 ---
 
-## 🤲 Closing Note
+## 📜 Lisensi
 
-> Good institutions are not built only by good people.
-> They are built by good people, good systems, clear records, and sincere accountability.
+Proyek ini dirilis di bawah lisensi **MIT**.
 
-**Masjid Hub exists to help masjid become stronger, cleaner, more organized, and easier to continue across generations.**
+---
+
+## 🤲 Catatan Penutup
+
+> Institusi yang baik tidak dibangun hanya oleh orang-orang baik.
+>
+> Institusi yang baik dibangun oleh orang-orang baik yang didukung sistem yang baik, pencatatan yang jelas, dan akuntabilitas yang tulus.
+
+**Masjid Hub hadir untuk membantu masjid menjadi lebih kuat, lebih tertib, lebih terorganisasi, dan lebih mudah dilanjutkan oleh generasi berikutnya.**
